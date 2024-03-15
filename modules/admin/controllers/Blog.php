@@ -8,7 +8,7 @@ class Blog extends Admin_Controller {
 		redirect('blog/post');
 	}
 
-	// Grocery CRUD - Blog Posts edit
+	// Grocery CRUD - Blog Post
 	public function post()
 	{
 		$crud = $this->generate_crud('blog_posts');
