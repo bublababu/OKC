@@ -99,7 +99,7 @@ class Lodge_reservations extends Admin_Controller{
     
         //PAGINATION INITIALIZATION START
         $this->pagination->initialize($config);
-        //PAGINATION INITIALIZATION END
+      
     
         //CALCULATION OF OFFSET VALUE FROM PAGE NO START
         $offset=$this->input->get('p', TRUE);    
